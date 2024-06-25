@@ -1,0 +1,82 @@
+.wedding-witnesses-container {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 50px;
+    padding: 30px;
+    border: 1px double black;
+    position: relative;
+    background-color: white;
+    background-image: url('../../assets-img/witnesses-bckground.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    &_cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 45%;
+
+        &_item {
+            margin: 20px;
+            display: flex;
+            flex-direction: row-reverse;
+            width: fit-content;
+            justify-content: center;
+            background-color: rgba(255, 255, 255, 0.5);
+
+
+            &_img {
+                width: 450px;
+                height: 500px;
+                object-fit: cover;
+                overflow: hidden;
+            }
+
+            &_names {
+                padding: 0px;
+                margin: 0px;
+                writing-mode: vertical-lr;
+                text-orientation: mixed;
+                letter-spacing: 0px;
+                font-size: 25px;
+
+
+            }
+
+            &_roles {
+                display: flex;
+                margin: 0px;
+                padding: 5px 0px;
+                writing-mode: vertical-lr;
+                text-orientation: mixed;
+                letter-spacing: 1px;
+                font-size: 20px;
+                border: none;
+
+            }
+        }
+
+        &:nth-child(2) {
+            width: 45%;
+            /* 2eme carte sur la 1ere ligne */
+        }
+
+        &:nth-child(3) {
+            width: 100%;
+            /* Une carte seule sur la deuxième ligne */
+        }
+
+        &:nth-child(4) {
+            width: 45%;
+            /* Les deux dernières cartes sur une ligne */
+        }
+
+        &:nth-child(5) {
+            width: 45%;
+            /* Les deux dernières cartes sur une ligne */
+        }
+    }
+}

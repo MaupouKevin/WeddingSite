@@ -1,0 +1,36 @@
+.footer {
+  display: flex;
+  width: 100%;
+
+  &_logo {
+    width: fit-content;
+    height: 150px;
+  }
+
+  &_link {
+    display: flex;
+  }
+
+  &_copyright {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    font-family: "montserrat", sans-serif;
+    &_year {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  &_credits {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    font-family: "montserrat", sans-serif;
+    &_maupumbsLogo {
+      width: fit-content;
+      height: 150px;
+    }
+  }
+}

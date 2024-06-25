@@ -1,0 +1,110 @@
+.history {
+
+    &_title {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        text-wrap: nowrap;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    &_lifetree {
+        position: relative;
+        bottom: 9px;
+        left: 48.5%;
+        width : 150px;
+    }
+
+    &_container {
+        display: flex;
+        flex-direction: row;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+
+        &_leftcontent {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            margin: 50px;
+            text-align: right;
+
+
+
+            & img {
+                width: 200px;
+                border-radius: 50%;
+            }
+
+            &_article {
+
+                &_title {
+                    font-size: 20px;
+                    margin: 20px 0px 20px 0px;
+
+                }
+            }
+        }
+
+        &_separator {
+            display: flex;
+            flex-direction: column;
+            border-right: 1px solid #CCBFB9;
+
+            & i {
+                position: relative;
+                left: 51.5%;
+
+                & img {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    background-color: #CCBFB9;
+                }
+            }
+
+            &_heart_icon {
+                position: relative;
+                top : 9%;
+            }
+
+            &_ring_icon {
+                position: relative;
+                top : 31%;
+
+            }
+
+            &_infinite_icon {
+                position: relative;
+                top : 55%;
+
+            }
+        }
+
+        &_rightcontent {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: column;
+            margin: 50px;
+            text-align: left;
+
+            & img {
+                width: 200px;
+                border-radius: 50%;
+            }
+
+            &_article {
+
+                &_title {
+                    font-size: 20px;
+                    margin: 20px 0px 20px 0px;
+                    ;
+                }
+            }
+        }
+    }
+}

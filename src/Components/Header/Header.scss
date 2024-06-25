@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  width: 100%;
+  background-color: #CCBFB9;
+
+  &_logo img {
+    position: relative;
+    width: 100px;
+  }
+
+  &_banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+    &_navbar {
+      display: flex;
+  
+    }
+
+    &_navbar a {
+      margin: 0px 50px 0px 50px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #6b2c0e;
+    }
+
+
+  }
+
+
+}
